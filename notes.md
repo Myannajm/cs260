@@ -22,6 +22,7 @@ The Stack: database —> server technology —> web framer (makes complex user i
   
  01/18/22
  - CSS: cascading style sheets, css uses selector to reach and apply specifications to certain members within HTML code 
- - *: base level selector, applies to everything | h1{color: red} only h1 | h1, h2{} does both| .className{} is class attribute | a:hover/a:visited {}              - CSS Box Model: boxes around boxes --> heart of the box is content (biggest part), then padding, the border, and the margin (Pals Before Marriage)                  -                              
+ - *: base level selector, applies to everything | h1{color: red} only h1 | h1, h2{} does both| .className{} is class attribute | a:hover/a:visited {}              - CSS Box Model: boxes around boxes --> heart of the box is content (biggest part), then padding, the border, and the margin (Pals Before Marriage)
+  -                               
                                                   
   
