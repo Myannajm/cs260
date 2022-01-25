@@ -23,6 +23,15 @@ The Stack: database —> server technology —> web framer (makes complex user i
  01/18/22
  - CSS: cascading style sheets, css uses selector to reach and apply specifications to certain members within HTML code 
  - *: base level selector, applies to everything | h1{color: red} only h1 | h1, h2{} does both| .className{} is class attribute | a:hover/a:visited {}              - CSS Box Model: boxes around boxes --> heart of the box is content (biggest part), then padding, the border, and the margin (Pals Before Marriage)
-  -                               
-                                                  
   
+  01/25/22
+  - assignment for tmrw: create a page w/ 0 functionaltiy (principles of good web design) to use with creative project 
+  - creative project: create a website to plan out moving to costa rica? 
+  - page title 96px, titles 48-20px, text 16px, secondary text 14px, input 16px <-- ideal font sizes 
+  - color themes: if it occurs in nature you're good, pull from material theme builder 
+  - iconography: use standard icons   
+  - images must add value to the site                                                 
+  - use whitespace conscientiously 
+  - goal is to not make the user think too much   
+  - search engine optimization: google search console, key to google crawling ur page is Robots.txt (within root of website, contains instructions for web crawling)
+  -  
