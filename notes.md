@@ -34,4 +34,6 @@ The Stack: database —> server technology —> web framer (makes complex user i
   - use whitespace conscientiously 
   - goal is to not make the user think too much   
   - search engine optimization: google search console, key to google crawling ur page is Robots.txt (within root of website, contains instructions for web crawling)
-  -  
+  
+  01/27/22
+  -   
