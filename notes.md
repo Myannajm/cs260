@@ -35,5 +35,10 @@ The Stack: database —> server technology —> web framer (makes complex user i
   - goal is to not make the user think too much   
   - search engine optimization: google search console, key to google crawling ur page is Robots.txt (within root of website, contains instructions for web crawling)
   
-  01/27/22
-  -   
+  02/03/22 --> JavaScript 
+  - pair programming !== division of labour, instead define small tasks, driver (tactical)/ navigator(strategy)
+  - loose equality does type conversion and unobvious equality rules  ( 1 == '1', 1 != '2', null == undefined)
+  - strict equality doesn't do type conversions, uses falsy (keep going til you find something true or return false) ( 1 != '1', null != undefined)
+  - logical nullish ??== operator, asisgned only when x is nullish (null/undefined)         
+  -                                                                                   
+    
