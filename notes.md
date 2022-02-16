@@ -40,5 +40,24 @@ The Stack: database —> server technology —> web framer (makes complex user i
   - loose equality does type conversion and unobvious equality rules  ( 1 == '1', 1 != '2', null == undefined)
   - strict equality doesn't do type conversions, uses falsy (keep going til you find something true or return false) ( 1 != '1', null != undefined)
   - logical nullish ??== operator, asisgned only when x is nullish (null/undefined)         
-  -                                                                                   
-    
+
+                                                                                    
+  02/15/22 
+  - midterm prep: midterm practice exam, review on thursday 
+  - debugging javascript 
+  1. let the language help - 'use strict', eslint                                                                                  
+  2. resolve all warnings and errors                                                                                  
+  3. define deliverable --> what is the expectation of what the code is 'supposed' to do? what's the big picture?
+  4. review code and services 
+  5. walk through the code in the debugger                                                                                   
+  6. test all paths                                                                                   
+  7. handle all error cases 
+  8. use test driven development (TDD)  --> write documentation, write tests, and THEN develop                                                                         - if you write your code with performance in mind you will get it wrong
+  1. optimize for real usage (cache, bandwidth, cpu, storage)
+  2. optimize based on data (don't guess!)
+  3. prioritize bottlenecks 
+  4. look at download size
+  5. compress, reduce, minify 
+  6. lazy load
+  7. use psychology 
+  
