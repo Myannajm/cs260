@@ -61,3 +61,11 @@ The Stack: database —> server technology —> web framer (makes complex user i
   6. lazy load
   7. use psychology 
   
+  03/01/22
+  - vue
+  - for loops can iterate arrays and objects as well as generate numbers 
+  - modularity is a core component of programming, allows for more manageable code that's easier to repeat with less bugs 
+  - template must have one parent element with as much complexity as u want 
+  - components can define content children as represented by template slots, there's always a default slot 
+  
+  
