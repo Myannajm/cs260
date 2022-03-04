@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Learning Vue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="root">
+        <!-- data binding using the v-model directive -->
+        <input type="text" v-model="message">
+        <!-- template using mustache syntax -->
+        <p>The value of the input is: {{ message }}.</p>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script text="type/javascript" src="script1.js"></script>
+</body>
+
+</html>
+<!-- <div id="root">
+        <p> {{ message }}</p>
+        <p>I said, {{ screaming }}</p>
+        <h1>Tasks</h1>
+<ul>
+  <li v-for="task in tasks" v-text="task.description"></li>
+</ul>
+<h1>Incomplete Tasks</h1>
+<ul>
+  <li v-for="task in incompleteTasks" v-text="task.description"></li>
+</ul>
+      </div> -->
+
+    <!-- <div id="root">
+        <button :title="title">Hover over me</button>
+        <h1 :class="className">Hello World</h1>
+        <button :class="{ 'blue': isLoading}" @click="toggleLoading">Click Me</button>>
+    </div>
+     -->
+
+<!-- <div id="root">
+    <ul>  -->
+        <!-- Loop through each name in names and render it. This will create a set of li elements. The v-text
+        directive will set the list element value to the name -->
+        <!-- <li v-for="name in names" v-text="name"></li>
+      </ul> -->
+      <!-- Let the user enter a new name and bind it to the newName property -->
+      <!-- <input type="text" v-model="newName"> -->
+      <!-- Create an event handler for the click event -->
+      <!-- <button v-on:click="addName">Add Name</button>
+  </div> -->

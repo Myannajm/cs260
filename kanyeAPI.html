@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<title>Kanye Quote Generator</title>
+
+<body>
+
+  <p>Ye of the Day</p>
+  <div id="quote">No Genius Here</div>
+</body>
+
+<script>
+const myurl = "https://api.kanye.rest";
+  console.log(myurl);
+  fetch(myurl)
+    .then(function(response) {
+      return response.json();
+    }).then(function(json) {
+      console.log(json);
+      const alt = document.createTextNode(json["quote"]);
+      const container = document.getElementById("quote");
+      container.textContent = "";
+      container.appendChild(alt);
+    });
+</script>
+</html>
