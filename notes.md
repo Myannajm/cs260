@@ -68,4 +68,6 @@ The Stack: database —> server technology —> web framer (makes complex user i
   - template must have one parent element with as much complexity as u want 
   - components can define content children as represented by template slots, there's always a default slot 
   
-  
+  03/03/22
+  - Vue Single File Component: template, script, style 
+  - tool for using vue: node.js
