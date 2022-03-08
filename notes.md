@@ -71,3 +71,8 @@ The Stack: database —> server technology —> web framer (makes complex user i
   03/03/22
   - Vue Single File Component: template, script, style 
   - tool for using vue: node.js
+03/08/22
+  - single page application: views, router(state contains current route component), vue component 
+  - every vue component has properties (props) associated with each class 
+  -  router dynamically loads the current component, computes what's to be dynamically displayed, istens for browser history to change the route, and can render dynamically calculated components 
+  
